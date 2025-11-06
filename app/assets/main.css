@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --background-color: oklch(0.135 0.0324 267.6);
+  --text-color: oklch(0.6157 0.0324 267.6);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+}
